@@ -1,35 +1,35 @@
- doctype html
+doctype html
 head
-  link(rel='icon' href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHw66VkRk92MhqAEyjfrNF1ay9Bo_OgcPAg&usqp=CAU')
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
-  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
-  link(rel='stylesheet' href='./css/all.css')
-  link(rel='stylesheet' href='./css/style.css')
-  link(rel='stylesheet' href='./css/clock.css')
-  title Tempiltin
-
+     link(rel='icon' href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHw66VkRk92MhqAEyjfrNF1ay9Bo_OgcPAg&usqp=CAU')
+     meta(charset='UTF-8')
+     meta(http-equiv='X-UA-Compatible' content='IE=edge')
+     meta(name='viewport' content='width=device-width, initial-scale=1.0')
+     link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
+     link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+     link(rel='stylesheet' href='./css/all.css')
+     link(rel='stylesheet' href='./css/style.css')
+     link(rel='stylesheet' href='./css/clock.css')
+     title Tempiltin
+  
 header.header_top
-     
-  .Mycontainer
-    nav.navbar.navbar-expand-lg.navbar-light
-      .container-fluid
-        a.navbar-brand(href='#')
-          img(data-aos='fade-down-right' src='./img/Tempiltin.png' alt='')
-        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
-          span.navbar-toggler-icon
-        #navbarNav.collapse.navbar-collapse(data-aos='zoom-in-up')
-          ul.navbar-tem.d-flex.justify-content-between
-            li.nav-item
-              a.nav-link.active(aria-current='page' href='#HeaderBottom') About
-            li.nav-item
-              a.nav-link(href='#') Resume
-            li.nav-item
-              a.nav-link(href='#') Contact
-            li.nav-item
-              a.nav-link.nav-tem.disabled(href='#' tabindex='-1' aria-disabled='true') Portfolio
+    
+ .Mycontainer
+   nav.navbar.navbar-expand-lg.navbar-light
+     .container-fluid
+       a.navbar-brand(href='#')
+         img(data-aos='fade-down-right' src='./img/Tempiltin.png' alt='')
+       button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+         span.navbar-toggler-icon
+       #navbarNav.collapse.navbar-collapse(data-aos='zoom-in-up')
+         ul.navbar-tem.d-flex.justify-content-between
+           li.nav-item
+             a.nav-link.active(aria-current='page' href='#HeaderBottom') About
+           li.nav-item
+             a.nav-link(href='#') Resume
+           li.nav-item
+             a.nav-link(href='#') Contact
+           li.nav-item
+             a.nav-link.nav-tem.disabled(href='#' tabindex='-1' aria-disabled='true') Portfolio
 header.header_middle
   .Mycontainer
     .row.justify-content-between
@@ -127,6 +127,87 @@ main.main_top
             h4(data-aos='fade-down-right') Jquery
     .row
       h2(data-aos='fade-left') B A C K E N  D
+      .col-lg-3
+        .MyfrontCard(data-aos='fade-up')
+          .MyTopContainer
+            img(data-aos='fade-down-left' src='./img/backend/nodejs.png' alt='png')
+            h4(data-aos='fade-down-right') Node js
+
+      .col-lg-3
+        .MyfrontCard(data-aos='fade-up')
+          .MyTopContainer
+            img(data-aos='fade-down-left' src='./img/backend/express.png' alt='png')
+            h4.backH4(data-aos='fade-down-right') Express js
+section.section_top 
+  .container 
+    h2(data-aos='fade-right') What I Use?
+    .row 
+      .col-12 
+        #carouselExampleDark.carousel.carousel-dark.slide(data-bs-ride='carousel')
+          
+          .carousel-inner
+            .carousel-item.active(data-bs-interval='10000')
+              .row 
+                .col-3 
+                  img(src="./img/front/html.png", alt="png") 
+                .col-3 
+                  img(src="./img/front/css.png", alt="png") 
+                .col-3 
+                  img.Js_img(src="./img/front/javascript.png", alt="png")
+                .col-3 
+                  img.JQ.png(src="./img/front/jquery.png", alt="png")
+               
+            .carousel-item(data-bs-interval='20000')
+              .row 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/vscode.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/bootstrap.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/owl.png", alt="png")
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/photoshop.png", alt="png")
+               
+            .carousel-item
+              .row 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/png.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/svg.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/figma.png", alt="png")
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/gulp.png", alt="png")
+            .carousel-item
+              .row 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/pug.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/less.svg", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/sass.png", alt="png")
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/swiper.png", alt="png")
+            .carousel-item
+              .row 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/github.png", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/less.svg", alt="png") 
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/sass.png", alt="png")
+                .col-3 
+                  img.wdth_100(src="./img/texnologiya/swiper.png", alt="png")
+                       
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleDark' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleDark' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+         
+
+
 script(src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js' integrity='sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p' crossorigin='anonymous')
 script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js' integrity='sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF' crossorigin='anonymous')
 script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')

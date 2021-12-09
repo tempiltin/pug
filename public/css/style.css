@@ -194,3 +194,43 @@ body{
     text-align: center;
     padding-bottom: 20px;
 }
+.backH4{
+    margin-top: 20px;
+}
+
+.section_top {
+    width: 100%;
+    height: 100vh;
+    background:url('../img/dark.jpg') no-repeat center center / cover;
+    background-attachment: fixed;
+}
+.section_top h2{
+    color: #ffffffa6;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    transition: 900ms !important;
+    cursor: pointer;
+    letter-spacing: .15em;
+    text-shadow: 
+       1px -1px 0     #ffffff,
+       -4px 4px 1px   #0a0a0a, 
+       -8px 8px 1px   #fbfff7,
+       -12px 12px 1px   #000000, 
+       -16px 16px 1px   #ffffff, 
+       -20px 20px 1px  #000000, 
+       -24px 24px 1px  #f0f0f0
+       
+   
+}
+.Js_img{
+    width: 80%;
+}
+.JQ.png{
+    width: 90%;
+}
+.wdth_100{
+    width: 100%;
+}
